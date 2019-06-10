@@ -16,7 +16,7 @@ const Layout = ({data}) => {
       <Header />
       {edges.map((edge, idx) => {
         const {frontmatter} = edge.node;
-
+      
         return (
           <div key={`${frontmatter.path}-${idx}`}>
             <Link to={frontmatter.path}>
@@ -25,6 +25,11 @@ const Layout = ({data}) => {
           </div>
         )
       })}
+
+      {/* All tags */}
+      <div>
+        <Link to={'/tags'}>Browse all tags</Link>
+      </div>
     </div>
   );
 }

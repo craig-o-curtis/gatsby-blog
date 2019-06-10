@@ -1,6 +1,6 @@
 ---
 path: "/first-post"
-date: "2019-05-31"
+date: "2019-05-30"
 title: "My First Post- Hodor"
 tags: ['Hodor','hodor']
 exerpt: "A preview of my first post hodor"

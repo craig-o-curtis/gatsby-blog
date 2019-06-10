@@ -1,5 +1,6 @@
+
 .blogPost {
-  
+  font-family: 'avenir';
   .title {
     background: royalblue;
     color:white;
@@ -8,6 +9,14 @@
     
   }
   .post {
-
+    padding: 1rem;
+  }
+  .links {
+    background: #dedede;
+    display: flex;
+    justify-content: space-evenly;
+    .link {
+      margin: 0.5rem;
+    }
   }
 }
